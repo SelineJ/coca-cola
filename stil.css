@@ -1,0 +1,151 @@
+
+h1{
+	font: bold;
+	padding: 3px;
+	text-align: center;
+}
+h2{
+	font: bold;
+	padding-left: 3px;
+	text-align: left;
+}
+header, nav, footer{
+	background:#e3001b;
+	display: block;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font: normal 12px Arial, verdana, times new roman;
+	
+}
+#storWrapper{
+	
+	width: 1000px;
+	margin: 15px auto;
+	text-align: left;
+
+
+}
+#bildeTopp{
+	max-width: 1000px;
+	height: 100px;
+	background-image: url(bilder/colaTopp.png);
+	background-repeat: no-repeat;
+	border-bottom: 3px solid white;
+	padding: 20px;
+
+}
+#navMeny{
+	background:#e3001b;
+	color: white;
+}
+#navMeny li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 17px Arial;
+
+
+}
+#fot{
+	background: #e3001b;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	max-width: 1000px;
+
+}
+#bilde{
+	float: right;
+	width: 350px;
+	height: auto;
+}
+#bildeProdukt1{
+	padding: 0px;
+	float: right;
+	width: 90px;
+	height: auto;
+	
+}
+
+#bildeProdukt2{
+	padding: 0px;
+	float: right;
+	width: 90px;
+	height: auto;
+}
+
+#bildeProdukt3{
+	padding: 0px;
+	float: right;
+	width: 90px;
+	height: auto;
+	
+}
+footer{
+	clear: right;
+
+}
+table, th, td{
+	border: 2px solid #e3001b; 
+}
+table{
+	width: 50%;
+	border-spacing: 2px;
+}
+img{
+	float: right;
+	padding: 10px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover, a:focus{
+	text-decoration: underline;
+}
+p {
+	font-size: 14px;
+	max-width: 600px;
+	padding-left: 20px;
+    
+
+}
+
+h4{
+	margin-left: 80px;
+}
+cite a{
+	color: grey;
+	padding-left: 530px;
+}
+
+#ref{
+	position: absolute;
+	font-size: 6px;
+	max-width: 1000px;
+	color: grey;
+	float: right;
+}
+
+
+#sideboks1{
+	width: 250px;
+	height: auto;
+	border: solid #e3001b;
+	float: right;
+	padding: 10px;
+}
+#sideboks2{
+	width: 350px;
+	height: auto;
+	border: solid #e3001b;
+	float: right;
+	padding: 10px;
+}
+footer a{
+	padding: 0;
+	text-decoration: underline;
+}
